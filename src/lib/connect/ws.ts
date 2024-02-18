@@ -294,4 +294,5 @@ const browserStreamBuilder: StreamBuilder = (client, opts) => {
 	return stream
 }
 
+export { streamBuilder, browserStreamBuilder }
 export default IS_BROWSER ? browserStreamBuilder : streamBuilder
